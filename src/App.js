@@ -13,7 +13,13 @@ function App() {
       </div>
       <div className="grid grid-cols-3 px-4 sm:px-8 md:px-10">
         {taskList.map((task, index) => (
-          <Board key={index} task={task} />
+          <Board
+            key={index}
+            task={task}
+            index={index}
+            taskList={taskList}
+            setTaskList={setTaskList}
+          />
         ))}
       </div>
     </>
