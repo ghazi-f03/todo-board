@@ -23,7 +23,7 @@ const Input = ({ taskList, setTaskList }) => {
           class="addbutton rounded-lg px-3.5 py-2 hover:opacity-50"
           onClick={handleAddTask}
         >
-          Add a task to do!
+          Add a task to the list
         </button>
       </form>
     </>
